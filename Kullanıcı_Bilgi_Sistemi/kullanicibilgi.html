@@ -1,0 +1,50 @@
+<html>
+<head>
+<link rel="stylesheet" href="kullanicibilgi.css"/>
+</head>
+<body>
+<form action="https://httpbin.org/post" method="post">
+    <div class="form-row">
+    <label for="adi">Ad</label>
+    <input name="adi" id="adi" type="text" required placeholder="Ahmet Yılmaz">
+    </div>
+    
+    <div class="form-row" >
+        <label for="tel">Telefon</label>
+        <input name="tel" id="Tel" type="tel" required>
+    </div>
+    <div class="form-row">
+        <label for="email">E mail</label>
+        <input name="email" id="email" type="email" required>
+    </div>
+    <div class="form-row">
+        <label for="Mesaj">Mesaj</label>
+        <textarea name="Mesaj" id="Mesaj" cols="30" rows="5">
+        </textarea>
+    </div>
+    <div class="form-row">
+        <label for="sehir">Şehir</label>
+        <select name="sehir" id="sehir"> 
+            <option value="" selected>Diğer</option>
+            <option value="">izmir</option> 
+            <option value="">İstanbul</option> 
+         </select>
+         </div>
+         <div class="form-row" >
+            <label for="renk">En sevdiğiniz renk</label>
+            <input id="renk" type="radio" name="renk" value="Kırmızı" checked>Kırmızı <br> <input type="radio" name="renk" value="Yeşil" >Yeşil
+         </div>
+         <div class="form-row">
+            <button type="reset">Sıfırla</button>
+            <button type="submit">Gönder</button>
+         </div>
+</form>
+
+
+
+</body>
+
+
+
+
+</html>
